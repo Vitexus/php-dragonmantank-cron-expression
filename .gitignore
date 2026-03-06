@@ -7,3 +7,9 @@ composer.lock
 .idea
 .php_cs.cache
 .phpunit.result.cache
+debian/debhelper-build-stamp
+debian/files
+debian/php-dragonmantank-cron-expression.debhelper.log
+debian/php-dragonmantank-cron-expression.substvars
+debian/.debhelper/
+debian/php-dragonmantank-cron-expression/

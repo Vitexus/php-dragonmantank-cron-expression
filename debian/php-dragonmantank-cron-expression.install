@@ -8,5 +8,6 @@ src/Cron/FieldInterface.php usr/share/php/Cron/
 src/Cron/HoursField.php usr/share/php/Cron/
 src/Cron/MinutesField.php usr/share/php/Cron/
 src/Cron/MonthField.php usr/share/php/Cron/
+debian/autoload.php usr/share/php/Cron/
 composer.json usr/share/php/Cron/
-debian/autoload.php usr/share/php/Cron/autoload.php
+
