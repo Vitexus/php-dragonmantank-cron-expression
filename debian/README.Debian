@@ -1,0 +1,9 @@
+php-dragonmantank-cron-expression for Debian
+
+This package installs the Cron\ namespace under /usr/share/php/Cron and
+registers its autoloader through pkg-php-tools.
+
+For direct use without Composer, include:
+    require_once '/usr/share/php/Cron/autoload.php';
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 06 Mar 2026 22:01:01 +0100

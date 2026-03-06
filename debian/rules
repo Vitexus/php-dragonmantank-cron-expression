@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --with phpcomposer
+
+override_dh_auto_test:
+
+override_dh_install:
+	dh_install
+	install -m0755 -d debian/php-dragonmantank-cron-expression/usr/share/pkg-php-tools/autoloaders
+	echo 'dragonmantank cron-expression Cron/autoload.php' > debian/php-dragonmantank-cron-expression/usr/share/pkg-php-tools/autoloaders/php-dragonmantank-cron-expression

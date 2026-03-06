@@ -1,0 +1,23 @@
+Source: php-dragonmantank-cron-expression
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools (>= 1.7~),
+Standards-Version: 4.7.0
+Homepage: https://github.com/dragonmantank/cron-expression
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/php-dragonmantank-cron-expression.git
+Vcs-Browser: https://github.com/Vitexus/php-dragonmantank-cron-expression
+
+Package: php-dragonmantank-cron-expression
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-require},
+ php-cli,
+Description: CRON expression parser and schedule calculator for PHP
+ This library parses CRON expressions, checks if a schedule is due,
+ and calculates next or previous run dates. It supports macros and
+ advanced day-of-month and day-of-week features.
